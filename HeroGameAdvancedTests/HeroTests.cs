@@ -12,6 +12,8 @@ namespace HeroGameAdvancedTests {
         [InlineData(1,1,0)]
         // timesToAttack is greater that the number of Uses should return -1 and not subtract from Uses.
         [InlineData(1,2,-1)]
+        [InlineData(3,6,-1)]
+
         public void AttackTest(int uses, int timesToAttack, int expected) {
             Dice d = new Dice(1,6);
 
