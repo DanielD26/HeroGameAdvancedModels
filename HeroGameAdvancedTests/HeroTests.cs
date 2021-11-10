@@ -5,7 +5,6 @@ using HeroGameAdvancedLib;
 
 namespace HeroGameAdvancedTests {
     public class HeroTests {
-        /*
         [Theory]
         [InlineData(3,1,2)]
         [InlineData(2,1,1)]
@@ -21,6 +20,5 @@ namespace HeroGameAdvancedTests {
 
             Assert.Equal(expected, result);
         }
-        */
     }
 }

@@ -15,7 +15,7 @@ namespace HeroGameAdvancedTests {
 
         }
 
-        /*
+
         [Fact]
         public void DiceTest2() {
             Dice d2 = new Dice(1, 6);
@@ -31,6 +31,6 @@ namespace HeroGameAdvancedTests {
             Assert.InRange(diceRoll,0,0);         
             
         }
-        */
+
     }
 }
